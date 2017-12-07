@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_18dp"
+            android:title="@string/home" />
+
+        <!--<item-->
+        <!--android:id="@+id/nav_notification"-->
+        <!--android:icon="@drawable/ic_notifications_18pt_3x"-->
+        <!--android:title="@string/notifications" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_navigation"-->
+        <!--android:icon="@drawable/ic_navigation_black_18dp"-->
+        <!--android:title="@string/navigation" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_store"-->
+        <!--android:icon="@drawable/ic_store_black_18dp"-->
+        <!--android:title="@string/online_store" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_bill"-->
+        <!--android:icon="@drawable/ic_store_black_18dp"-->
+        <!--android:title="@string/bill" />-->
+
+    </group>
+
+    <group android:id="@+id/grp2">
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_settings_18pt_3x"
+            android:title="@string/action_settings" />
+
+
+        <!--<item-->
+        <!--android:id="@+id/nav_help"-->
+        <!--android:icon="@drawable/ic_help_outline_black_18dp"-->
+        <!--android:title="@string/action_help" />-->
+
+        <!--<item-->
+        <!--android:id="@+id/nav_about"-->
+        <!--android:icon="@drawable/ic_info_outline_black_18dp"-->
+        <!--android:title="@string/action_about" />-->
+    </group>
+
+</menu>

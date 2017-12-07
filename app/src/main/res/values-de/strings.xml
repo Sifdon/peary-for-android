@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">peary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Hauptmenü -->
+    <string name="home">Zuhause</string>
+    <string name="notifications">Benachrichtigungen</string>
+    <string name="navigation">Navigation</string>
+    <string name="online_store">Online-Store</string>
+    <string name="bill">Rechnungen</string>
+
+    <string name="action_about">Über</string>
+    <string name="action_help">Hilfe &amp; Tipps</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_save">Speichern</string>
+    <string name="action_search">Suchen</string>
+    <string name="action_invite">Freunde einladen</string>
+
+    <string name="empty_view_text">Füge ein neues Produkt hinzu!</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+
+    <!-- FridgeAdapter -->
+    <string name="date_placeholder">01.01.1970</string>
+    <string name="show_x_quantity">x%1$d</string>
+    <string name="show_days_expiry">%1$d %2$s</string>
+    <string name="days">Tage</string>
+    <string name="days_dativ">Tagen</string>
+    <string name="day">Tag</string>
+
+    <!-- ProduktDetails -->
+    <string name="add_product">Produkt hinzufügen</string>
+    <string name="add">Hinzufügen</string>
+    <string name="product_name">Produktname</string>
+    <string name="quantity">Stückanzahl</string>
+    <string name="expiry_date">Mindesthaltbarkeitsdatum</string>
+    <string name="autorenew">Automatische Erneuerung</string>
+    <string name="autorenew_short">Erneuerung</string>
+    <string name="autorenew_descr">Das Produkt wird nach %1$d %2$s automatisch wieder zur Einkaufsliste hinzugefügt.</string>
+
+
+    <string name="cancel">ABBRECHEN</string>
+    <string name="ok">OK</string>
+
+    <!-- QuantityDialog -->
+    <string name="quantity_title">Wähle eine Stückanzahl</string>
+    <string name="quantity_alert">Die Stückanzahl darf nicht 0 betragen</string>
+    <string name="no_quantity_alert">Bitte trage eine Stückanzahl ein</string>
+
+    <!-- ProductNameDialog -->
+    <string name="product_name_title">Wähle einen Produktnamen</string>
+    <string name="no_product_name_alert">Bitte trage einen Produktnamen ein</string>
+
+    <!-- Notification -->
+    <string name="ticker">Ablaufdatum</string>
+    <string name="content_title">Mindesthaltbarkeit von %1$s</string>
+    <string name="content_message">Produkt \"%1$s\" nähert sich dem Mindesthaltbarkeitsdatum</string>
+    <string name="content_text">Das Produkt \"%1$s\" nähert sich dem Mindesthaltbarkeitsdatum in %2$d %3$s</string>
+    <string name="action_delete">Produkt löschen</string>
+    <string name="action_edit">Produkt bearbeiten</string>
+
+    <string name="selected">ausgewählt</string>
+
+
+    <!-- Activity Titles  -->
+    <string name="title_activity_create_account">Account erstellen</string>
+
+    <!-- Login and Create Account Screen  -->
+    <string name="text_dont_have_account">Noch keinen Account?</string>
+    <string name="text_already_have_account">Bereits registriert?</string>
+    <string name="button_create_account">Registrieren</string>
+    <string name="button_sign_in">Anmelden</string>
+    <string name="button_signin_with_google">SIGN IN WITH GOOGLE</string>
+    <string name="button_signin_with_password">Anmelden</string>
+
+
+    <string name="button_sign_out">Abmelden</string>
+    <string name="title_activity_settings">Einstellungen</string>
+    <string name="minimum_password">Das Passwort muss mindestens 6 Zeichen lang sein!</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Account settings -->
+    <string name="pref_header_account">Account</string>
+
+    <string name="pref_title_display_name">Namen ändern</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_email">E-Mail ändern</string>
+
+
+    <string name="pref_title_picture">Foto ändern</string>
+    <string name="pref_default_email">john@smith.com</string>
+    <string name="pref_password">Passwort ändern</string>
+    <string name="pref_delete_account">Account löschen</string>
+    <string name="hint_enter_username">Benutzername</string>
+    <string name="hint_enter_email">E-Mail-Adresse</string>
+    <string name="hint_enter_password">Passwort</string>
+    <string name="logo_image">peary Logo</string>
+    <string name="forgot_password">Passwort vergessen?</string>
+    <string name="back">zurück</string>
+    <string name="reset_password">Passwort zurücksetzen</string>
+    <string name="forgot_password_msg">Wir brauchen deine registrierte E-Mailadresse, um dein Passwort zurücksetzen zu können.</string>
+    <string name="pref_logout">Abmelden</string>
+    <string name="delete_account_msg">Bist du sicher, dass du deinen Account löschen möchtest? Die Daten können danach nicht mehr wiederhergestellt werden.</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+
+
+    <string name="you_cant_add_yourself">Du kannst dich nicht selbst hinzufügen!</string>
+    <string name="shares_already_list">%s teilt mit dir bereits die gleiche Liste!</string>
+    <string name="friend_name">Name</string>
+    <string name="title_activity_add_friend">Freund hinzufügen</string>
+    <string name="profile_picture">Profilbild</string>
+    <string name="error_occured">Ein Fehler ist aufgetreten, bitte überprüfe deine Internetverbindung und versuche es später noch einmal.</string>
+    <string name="already_asked">Du hast bereits eine Einladung an %s geschickt!</string>
+    <string name="successfully_asked">Deine Einladung an %s wurde erfolgreich gesendet!</string>
+    <string name="new_invitation">Neue Einladung</string>
+    <string name="do_you_want_to_share">Möchtest du mit %s deine Einkaufsliste und deinen Kühlschrank teilen?</string>
+    <string name="friend_mail">E-Mail-Adresse</string>
+
+
+</resources>

@@ -1,0 +1,12 @@
+# Don't use parentheses when assigning your values,
+# except you are using parentheses in your filenames and passwords!
+# If you are on Windows you have to use \\ (double backslashes) in your path name
+# e.g.: keyStoreFile=C:\\Path\\to\\keys.jks
+
+keyStoreFile=your/path/to/keys.jks
+
+keyStorePassword=mySecretKeyStorePassword
+
+keyAliasName=myAppReleaseName
+
+keyAliasPassword=mySecretPrivateKeyPassword

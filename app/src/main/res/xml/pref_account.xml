@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<Preference-->
+    <!--android:key="@string/myCoolButton"-->
+    <!--android:title="@string/pref_title_picture" />-->
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="change_name"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_default_display_name"
+        android:title="@string/pref_title_display_name" />
+
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_email"
+        android:inputType="textEmailAddress"
+        android:key="change_email"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:summary="@string/pref_default_email"
+        android:title="@string/pref_title_email" />
+
+    <EditTextPreference
+        android:capitalize="words"
+        android:inputType="textPassword"
+        android:key="change_password"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_password" />
+
+    <Preference
+        android:key="delete_account"
+        android:title="@string/pref_delete_account" />
+
+
+</PreferenceScreen>

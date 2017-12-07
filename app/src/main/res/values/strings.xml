@@ -1,0 +1,126 @@
+<resources>
+    <string name="app_name">peary</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Hauptmenü -->
+    <string name="home">Home</string>
+    <string name="notifications">Notifications</string>
+    <string name="navigation">Navigation</string>
+    <string name="online_store">Online store</string>
+    <string name="bill">Bills</string>
+
+    <string name="action_about">About</string>
+    <string name="action_help">Helps</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_save">Save</string>
+    <string name="action_search">Search</string>
+    <string name="action_invite">Invite friends</string>
+
+    <string name="empty_view_text">Add a new item!</string>
+
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+
+    <!-- FridgeAdapter -->
+    <string name="date_placeholder">01.01.1970</string>
+    <string name="show_x_quantity">x%1$d</string>
+    <string name="show_days_expiry">%1$d %2$s</string>
+    <string name="days">Days</string>
+    <string name="days_dativ">Days</string>
+    <string name="day">Day</string>
+
+    <!-- ProduktDetails -->
+    <string name="add_product">Add product</string>
+    <string name="add">Add</string>
+    <string name="product_name">product name</string>
+    <string name="quantity">quantity</string>
+    <string name="expiry_date">Expiry date</string>
+    <string name="autorenew">auto renew</string>
+    <string name="autorenew_short">auto renew</string>
+    <string name="autorenew_descr">The product will be added to the grocery list after %1$d %2$s automatically.</string>
+
+
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+
+    <!-- QuantityDialog -->
+    <string name="quantity_title">Choose quantity</string>
+    <string name="quantity_alert">Quantity must not be 0</string>
+    <string name="no_quantity_alert">Please add a quantity</string>
+
+    <!-- ProductNameDialog -->
+    <string name="product_name_title">Choose a product name</string>
+    <string name="no_product_name_alert">Please add a product name</string>
+
+    <!-- Notification -->
+    <string name="ticker">Ablaufdatum</string>
+    <string name="content_title">Mindesthaltbarkeit von %1$s</string>
+    <string name="content_message">The product \"%1$s\" is about to expire</string>
+    <string name="content_text">The product \"%1$s\" expires in %2$d %3$s</string>
+    <string name="action_delete">Produkt löschen</string>
+    <string name="action_edit">Produkt bearbeiten</string>
+
+    <string name="selected">selected</string>
+
+
+    <!-- Activity Titles  -->
+    <string name="title_activity_create_account">Create Account</string>
+
+    <!-- Login and Create Account Screen  -->
+    <string name="text_dont_have_account">Don\'t have an account yet?</string>
+    <string name="text_already_have_account">Already have an account?</string>
+    <string name="button_create_account">Register</string>
+    <string name="button_sign_in">Sign In</string>
+    <string name="button_signin_with_google">SIGN IN WITH GOOGLE</string>
+    <string name="button_signin_with_password">Sign In</string>
+
+
+    <string name="button_sign_out">Sign Out</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="minimum_password">The password has to be at least 6 characters long!</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Account settings -->
+    <string name="pref_header_account">Account</string>
+
+    <string name="pref_title_display_name">Change name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_email">Change e-mail</string>
+
+
+    <string name="pref_title_picture">Change picture</string>
+    <string name="pref_default_email">john@smith.com</string>
+    <string name="pref_password">change password</string>
+    <string name="pref_delete_account">Delete account</string>
+    <string name="hint_enter_username">Username</string>
+    <string name="hint_enter_email">E-mail address</string>
+    <string name="hint_enter_password">Password</string>
+    <string name="logo_image">peary Logo</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="back">back</string>
+    <string name="reset_password">Reset password</string>
+    <string name="forgot_password_msg">To reset your password we need your the e-mail address you have registered with.</string>
+    <string name="pref_logout">Sign Out</string>
+    <string name="delete_account_msg">Are you sure you want to delete your account? Your data cannot be restored afterwards.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+
+    <string name="you_cant_add_yourself">You can\'t add yourself!</string>
+    <string name="shares_already_list">%s already shares a list with you!</string>
+    <string name="friend_name">Name</string>
+    <string name="title_activity_add_friend">Add friend</string>
+    <string name="profile_picture">Profile picture</string>
+    <string name="error_occured">An error occured. please check your network connectivity und try again.</string>
+    <string name="already_asked">You have already sent an invitation to %s!</string>
+    <string name="successfully_asked">Your invitation has been successfully sent to %s!</string>
+    <string name="new_invitation">New invitation</string>
+    <string name="do_you_want_to_share">Do you want to share your grocery list and refrigerator with %s?</string>
+    <string name="friend_mail">E-mail address</string>
+
+
+</resources>

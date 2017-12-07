@@ -1,0 +1,12 @@
+.gradle
+/projectFilesBackup/
+/.idea/
+.DS_Store
+/build
+/captures
+/app/app.iml
+/app/google-services.json
+
+#config file
+/gradle.properties
+/local.properties
